@@ -6,7 +6,7 @@
 	<script type="application/javascript">
 	safari.application.addEventListener("validate", function(event)
 	{
-		if (event.userInfo === undefined)
+		if (event.userInfo === null)
 			event.target.disabled = true;
 	}, false);
 	safari.application.addEventListener("command", function(event)
