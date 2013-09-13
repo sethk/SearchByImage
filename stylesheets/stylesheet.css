@@ -319,12 +319,22 @@ Full-Width Styles
 
 #downloads {
   position: absolute;
-  width: 210px;
+  width: 356px;
   z-index: 10;
   bottom: -40px;
   right: 0;
-  height: 70px;
+  height: 77px;
   background: url('../images/icon_download.png') no-repeat 0% 90%;
+}
+
+.safariextz_download_link {
+	display: block;
+	float: right;
+	background: url(../images/icon_extension.png) no-repeat left;
+	padding-left: 128px;
+	padding-bottom: 46px;
+	padding-top: 46px;
+	font-weight: bold;
 }
 
 .zip_download_link {
